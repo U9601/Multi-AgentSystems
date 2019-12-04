@@ -1,1 +1,40 @@
-<mxfile host="www.draw.io" modified="2019-12-04T15:59:49.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" version="12.3.6" etag="f9O17Ko2mH2Iw1sOjp7u" type="github" pages="1"><diagram id="r2zAUS4v8eErGZ5sUi-Z">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-04T16:02:33.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="x3ec-Vf8nLHdLvanZ4Qq" version="12.3.6" type="github" pages="1">
+  <diagram id="r2zAUS4v8eErGZ5sUi-Z" name="Page-1">
+    <mxGraphModel dx="1550" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="AKSK3NUh1isyDVAjTcDC-1" value="Owns" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="180" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="AKSK3NUh1isyDVAjTcDC-2" value="+ getOwner()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKSK3NUh1isyDVAjTcDC-1">
+          <mxGeometry y="26" width="180" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="AKSK3NUh1isyDVAjTcDC-3" value="+ setOwner(): Mandatory AID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKSK3NUh1isyDVAjTcDC-1">
+          <mxGeometry y="52" width="180" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="AKSK3NUh1isyDVAjTcDC-4" value="+ getPhone()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKSK3NUh1isyDVAjTcDC-1">
+          <mxGeometry y="78" width="180" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="AKSK3NUh1isyDVAjTcDC-5" value="+ setPhone(): Mandatory Phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKSK3NUh1isyDVAjTcDC-1">
+          <mxGeometry y="104" width="180" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="AKSK3NUh1isyDVAjTcDC-6" value="Sell" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="180" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="AKSK3NUh1isyDVAjTcDC-7" value="+ getBuyer()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKSK3NUh1isyDVAjTcDC-6">
+          <mxGeometry y="26" width="180" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="AKSK3NUh1isyDVAjTcDC-8" value="+ setBuyer(): Mandatory AID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKSK3NUh1isyDVAjTcDC-6">
+          <mxGeometry y="52" width="180" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="AKSK3NUh1isyDVAjTcDC-9" value="+ getPhone()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKSK3NUh1isyDVAjTcDC-6">
+          <mxGeometry y="78" width="180" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="AKSK3NUh1isyDVAjTcDC-10" value="+ setPhone(): Mandatory Phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AKSK3NUh1isyDVAjTcDC-6">
+          <mxGeometry y="104" width="180" height="26" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
